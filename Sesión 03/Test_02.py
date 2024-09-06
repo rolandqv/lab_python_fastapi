@@ -24,20 +24,8 @@ carro1 = Carro("Negro",50)
 print(carro1.color)
 print(carro1.aceleracion)
 print(carro1.ruedas)
-
-carro2 = Carro("Rojo",70)
-print(carro2.color)
-print(carro2.aceleracion)
-print(carro2.ruedas)
-
-carro2.marchas = 2000
-print("El número de marchas de mi carro 2 es : {}".format(carro2.marchas))
-
-
-
-#"""Otra forma"""
-#carro2 = Carro()
-#carro2.color = "AZUL"
-#carro2.aceleracion = "100"
-#print(carro2.color)
-#print(carro2.aceleracion)
+carro1.acelerar()
+carro1.acelerar()
+print("La velocidad actual del carro1 es: {}".format(carro1.velocidad))
+carro1.frenar()
+print("La velocidad despues de frenar del carro1 es: {}".format(carro1.velocidad))
